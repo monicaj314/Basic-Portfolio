@@ -70,6 +70,7 @@ h2 {
 }
 aside {
 	width: 170px;
+	margin-top: 20px;
 	float: right;
 	background-color: #ffffff;
 	overflow: auto;
@@ -82,11 +83,14 @@ div.name {
 	margin-right: 50px;
 }
 .navbar {
-	display: inline;
 	float:right;
 	background-color: #ffffff;
 	color: #666666;
 	padding: 20px 10px 20px 10px;
+}
+li {
+	display: inline;
+	margin: 10px;
 }
 .maincontent {
 	width: 860px;
