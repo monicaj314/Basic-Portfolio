@@ -30,6 +30,15 @@ footer, header, hgroup, menu, nav, section {
 }
 body {
 	line-height: 1;
+	background-image: url("../images/notebook.jpg");
+	width: 100%;
+}
+header {
+	background-color: #ffffff;
+	overflow: auto;
+	border-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #cccccc;
 }
 ol, ul {
 	list-style: none;
@@ -49,38 +58,63 @@ table {
 h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
-aside {
-	width: 270px;
-	float: right;
+h2 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #4aaaa5;
+	padding: 10px 0px 10px;
+	text-align:center;
+	border-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #cccccc;
+	margin-bottom: 15px;
 }
+aside {
+	width: 170px;
+	float: right;
+	background-color: #ffffff;
+	overflow: auto;
+}
+div.name {
+	float: left;
+}
+
 #navbar {
 	margin-right: 50px;
+}
+.navbar {
+	display: inline;
+	float:right;
+	background-color: #ffffff;
+	color: #666666;
+	padding: 20px 10px 20px 10px;
+}
+.maincontent {
+	width: 860px;
 }
 .name {
 	background-color: #4aaaa5;
 	color: #fff;
 	padding: 20px;
-	margin-left: 100px;
 	width: 100px;
-}
-.blurb {
-  ;
-}
-.navbar {
-	float:right;
-	background-color: #ffffff;
-	color: #666666;
-	padding:10px;
+	margin-left: 100px;
 }
 .about {
-	width: 650px;
-	margin-left: 100px;
+	width: 550px;
+	margin: 20px 5px 0 100px;
+	background-color: #ffffff;
+	float: left;
 }
 .aboutme {
 	color: #4aaaa5;
-	padding: 20px;
+	padding: 15px 0px 15px;
+	text-align:left;
+	border-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #cccccc;
+	margin-bottom: 15px;
 }
 .connect {
+	
 	
 }
 .thumb {
