@@ -49,20 +49,39 @@ table {
 h1 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 }
+aside {
+	width: 270px;
+	float: right;
+}
+#navbar {
+	margin-right: 50px;
+}
 .name {
 	background-color: #4aaaa5;
 	color: #fff;
-	margin-left: 50px;
+	padding: 20px;
+	margin-left: 100px;
+	width: 100px;
+}
+.blurb {
+  ;
+}
+.navbar {
+	float:right;
+	background-color: #ffffff;
+	color: #666666;
+	padding:10px;
 }
 .about {
 	width: 650px;
-	margin-left: 50px;
+	margin-left: 100px;
 }
 .aboutme {
 	color: #4aaaa5;
+	padding: 20px;
 }
 .connect {
-	float: right;
+	
 }
 .thumb {
 	width: 42px;
