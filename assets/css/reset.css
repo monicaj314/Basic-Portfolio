@@ -46,3 +46,37 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
+h1 {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+.name {
+	background-color: #4aaaa5;
+	color: #fff;
+	margin-left: 50px;
+}
+.about {
+	width: 650px;
+	margin-left: 50px;
+}
+.aboutme {
+	color: #4aaaa5;
+}
+.connect {
+	float: right;
+}
+.thumb {
+	width: 42px;
+	height: 42px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
