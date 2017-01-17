@@ -29,9 +29,8 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
-	line-height: 1;
+	line-height: 2;
 	background-image: url("../images/notebook.jpg");
-	width: 100%;
 }
 header {
 	background-color: #ffffff;
@@ -69,7 +68,7 @@ h2 {
 	margin-bottom: 15px;
 }
 aside {
-	width: 170px;
+	width: auto;
 	margin-top: 20px;
 	float: right;
 	background-color: #ffffff;
@@ -78,22 +77,39 @@ aside {
 div.name {
 	float: left;
 }
-
-#navbar {
-	margin-right: 50px;
-}
 .navbar {
+	margin-right: 100px;
 	float:right;
 	background-color: #ffffff;
 	color: #666666;
-	padding: 20px 10px 20px 10px;
+	padding-top:20px;
 }
+
 li {
 	display: inline;
 	margin: 10px;
 }
+li a:link {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+	color: #cccccc;
+    text-decoration: none;
+}
+
+li a:active {
+    color: #4aaaa5;
+}
+li a:visited {
+	color:#666666;
+}
+
+/* Change the link color on hover */
+li a:hover {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+    color: #4aaaa5;
+}
 .maincontent {
 	width: 860px;
+	margin-left: 100px;
 }
 .name {
 	background-color: #4aaaa5;
@@ -104,28 +120,48 @@ li {
 }
 .about {
 	width: 550px;
-	margin: 20px 5px 0 100px;
+	margin: 20px 20px 0 0;
 	background-color: #ffffff;
 	float: left;
+	padding: 20px;
 }
 .aboutme {
 	color: #4aaaa5;
-	padding: 15px 0px 15px;
+	padding-bottom: 15px;
 	text-align:left;
 	border-style: solid;
 	border-bottom-width: 1px;
 	border-bottom-color: #cccccc;
 	margin-bottom: 15px;
 }
+.portrait {
+	float: left;
+	margin-right: 20px;
+}
 .connect {
-	
-	
+	padding: 10px;
+	margin-left: ;
 }
 .thumb {
 	width: 42px;
 	height: 42px;
+	padding: 1px;
 }
-
+footer {
+    position:fixed;
+    bottom:0;
+    width: 100%;
+    text-align:center;
+	overflow: auto;
+	color: #ffffff;
+	background-color:#666666;
+	border-top-style:solid;
+	border-top-width:5px;
+	border-top-color: #4aaaa5;
+}
+.footer {
+	padding: 20px;
+}
 
 
 
