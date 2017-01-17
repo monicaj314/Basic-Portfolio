@@ -61,6 +61,7 @@ h1 {
 h2 {
 	font-family: 'Georgia', Times, Times New Roman, serif;
 	color: #4aaaa5;
+	font-size:18pt;
 	padding: 0px 0px 10px;
 	text-align:center;
 	border-style: solid;
@@ -147,6 +148,7 @@ li a:hover {
 	width: 42px;
 	height: 42px;
 	padding: 1px;
+	margin: 0 5px 0 7px;
 }
 footer {
     position:fixed;
