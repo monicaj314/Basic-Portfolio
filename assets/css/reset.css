@@ -29,9 +29,9 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
 }
 body {
+	line-height:2;
 	background-image: url("../images/notebook.jpg");
 	overflow-y:scroll;
-	line-height:2;
 }
 body, html {
 	height:100%;
@@ -81,7 +81,8 @@ p {
 .maxwidth {
 	width:960px;
 	margin-left:100px;
-	overflow:visible;
+	overflow:auto;
+	min-height:auto;
 }
 div.maxwidth.maincontent {
 	width:960px;
@@ -95,18 +96,16 @@ div.maxwidth.maincontent {
 /*Header styling*/
 .name {
 	position:relative;
-	top:1px;
-	bottom:-1px;
 	float: left;
 	padding: 0 10px 0 10px;
 }
 .navbar {
-	float:right;
-	top:5px;
+	position:relative;
+	right:0;
 	background-color: #ffffff;
 	color: #666666;
 	padding-top:25px;
-	overflow:auto;
+	overflow:hidden;
 }
 ul {
 	float:right;
@@ -139,6 +138,7 @@ li a:hover {
 	padding: 20px;
 	width: auto;
 	font-size:20pt;
+	border-top: solid #ffffff 1px;
 }
 /*Sidebar styling*/
 
@@ -182,11 +182,10 @@ footer {
 	color: #4aaaa5;
 	padding-bottom: 15px;
 	text-align:left;
-	border-style: solid;
-	border-bottom-width: 1px;
-	border-bottom-color: #cccccc;
+	border-bottom: solid #cccccc 1px;
 	margin-bottom: 15px;
 }
+
 .portrait {
 	float: left;
 	margin-right: 20px;
@@ -219,6 +218,7 @@ input[type="text"] {
 }
 textarea {
 	border: 1px solid #cccccc;
+	max-width: 98%;
 }
 button {
 	background-color: #4aaaa5;
