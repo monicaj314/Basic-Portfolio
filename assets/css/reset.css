@@ -77,6 +77,7 @@ h2 {
 }
 p {
 	font-family:'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color:#777777;
 }
 .maxwidth {
 	width:960px;
@@ -140,6 +141,13 @@ li a:hover {
 	font-size:20pt;
 	border-top: solid #ffffff 1px;
 }
+ h1.mainheading {
+ 	color: #4aaaa5;
+	padding-bottom: 15px;
+	text-align:left;
+	border-bottom: solid #cccccc 1px;
+	margin-bottom: 25px;
+}
 /*Sidebar styling*/
 
 aside {
@@ -156,6 +164,7 @@ aside {
 	padding: 1px;
 	margin-left:16px;
 }
+/*Footer styling*/
 footer {
 	width:100%;
 	color: #ffffff;
@@ -170,43 +179,27 @@ footer {
 	height: 87px;
 } 
 /*Styling specific to index.html*/
-.about {
+#about {
 	width: 610px;
 	margin: 20px 20px 0 0;
 	background-color: #ffffff;
 	float: left;
 	padding: 20px;
 }
-
-.aboutme {
-	color: #4aaaa5;
-	padding-bottom: 15px;
-	text-align:left;
-	border-bottom: solid #cccccc 1px;
-	margin-bottom: 15px;
-}
-
 .portrait {
 	float: left;
 	margin-right: 20px;
 }
 /*Styling specific to contact.html*/
 
-.contact {
-	color: #4aaaa5;
-	padding-bottom: 10px;
-	text-align:left;
-	border-bottom: solid #cccccc 1px;
-	margin-bottom: 10px;
-}
-.contactform {
+#contact {
 	width: 610px;
 	margin: 20px 20px 20px 0;
 	background-color: #ffffff;
 	float: left;
 	padding: 20px;
 	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
-	color: #666666;
+	color: #777777;
 }
 input {
 	border: 1px solid #cccccc;
@@ -232,6 +225,65 @@ button {
 	width:100px;
 	margin-top: 10px;
 }
+ /*Styling specific to portfolio.html*/
+
+#portfolio {
+	width: 610px;
+	margin: 20px 20px 20px 0;
+	background-color: #ffffff;
+	float: left;
+	padding: 20px;
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	color: #666666;
+}
+.gallery {
+	float:left;
+	position:relative;
+
+}
+img.tile1, img.tile3, img.tile5 {
+	margin-right: 33px;
+}
+.caption {
+	display:inline-block;
+	width:285px;
+	height:40px;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	text-align:center;
+	font-family: 'Georgia', Times, Times New Roman, serif;;
+}
+div.gallery>img {
+	margin-bottom:30px;
+}
+div.caption.tile1 , div.caption.tile2 {
+	position:absolute;
+ 	top:150px;
+}
+div.caption.tile3, div.caption.tile4 {
+	position:absolute;
+	top:390px;
+}
+div.caption.tile5 {
+	position:absolute;
+	top:630px;
+}
+
+
+/*
+.tile2 {
+
+}
+.tile3 { 
+	margin-right: 25px;
+
+}
+.tile4 {
+
+}
+.tile5 {
+	margin-right: 25px;
+}*/
 
 
 
