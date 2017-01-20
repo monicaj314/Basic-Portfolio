@@ -244,47 +244,24 @@ button {
 img.tile1, img.tile3, img.tile5 {
 	margin-right: 33px;
 }
+.tile {
+	display: inline-block;
+}
 .caption {
 	display:inline-block;
+	position:absolute;
+	margin-top:140px;
 	width:285px;
 	height:40px;
 	background-color: #4aaaa5;
 	color: #ffffff;
 	text-align:center;
-	font-family: 'Georgia', Times, Times New Roman, serif;;
+	font-family: 'Georgia', Times, Times New Roman, serif;
+
 }
 div.gallery>img {
 	margin-bottom:30px;
 }
-div.caption.tile1 , div.caption.tile2 {
-	position:absolute;
- 	top:150px;
-}
-div.caption.tile3, div.caption.tile4 {
-	position:absolute;
-	top:390px;
-}
-div.caption.tile5 {
-	position:absolute;
-	top:630px;
-}
-
-
-/*
-.tile2 {
-
-}
-.tile3 { 
-	margin-right: 25px;
-
-}
-.tile4 {
-
-}
-.tile5 {
-	margin-right: 25px;
-}*/
-
 
 
 
